@@ -1,0 +1,50 @@
+body {
+  color: white;
+  font-family: 'Hussar', sans-serif;
+}
+.header {
+  background-color: #01111a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+.header__logo-image {
+  height: 50px;
+}
+.header__logo-title {
+  text-transform: uppercase;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+}
+.header__item {
+  padding: 0 5px 0 5px;
+  margin: 0 18px 0 18px;
+  align-items: center;
+  cursor: pointer;
+}
+.header__button {
+  display:flex;
+  background-color: #22a5e5;
+  align-items: center;
+  gap: 9px;
+  border-radius: 7.5px;
+  border: solid 3px white;
+}
+.header__button:hover {
+  background-color: slateblue;
+  font-family: 'Æ Systematic TT BRK', sans-serif;
+  font-size: 17.25px;
+}
+.header__button-icon {
+  fill: azure;
+}
+.hero {
+  height: 100vh;
+  background-image: url("./img/lmfoyn.jpg");
+}

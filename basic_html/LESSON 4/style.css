@@ -1,0 +1,15 @@
+body {
+    color: white;
+    }
+    
+    header {
+    background-color: #01111a;
+    }
+    
+    .header__logo-wrapper {
+    background-color: lightblue;
+    }
+    
+    .header__logo-image {
+        height: 50px;
+    }

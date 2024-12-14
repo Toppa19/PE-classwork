@@ -1,0 +1,35 @@
+body {
+  color: white;
+}
+.header {
+  background-color: #01111a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo-wrapper {
+  background-color: lightblue;
+  display: flex;
+}
+.header__logo-image {
+  height: 50px;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+}
+.header__item {
+  padding: 0 5px 0 5px;
+  margin: 0 18px 0 18px;
+}
+.header__button {
+  display:flex;
+  background-color: #22a5e5;
+  align-items: center;
+  gap: 9px;
+  border-radius: 5px;
+  border: solid 1px white;
+}
+.header__button-icon {
+  fill: azure;
+}

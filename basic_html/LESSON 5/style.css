@@ -1,0 +1,25 @@
+body {
+    color: white;
+  }
+  .header {
+    background-color: #01111a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .header__logo-wrapper {
+    background-color: lightblue;
+    display: flex;
+  }
+  .header__logo-image {
+    height: 50px;
+  }
+  .header__list {
+    display: flex;
+    flex-direction: row;
+  }
+  .header__item {
+    padding: 0 5px 0 5px;
+    margin: 0 18px 0 18px;
+  }
